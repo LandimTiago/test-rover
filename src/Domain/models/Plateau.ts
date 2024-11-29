@@ -1,4 +1,6 @@
-export class Plateau {
+import { IPlateau } from "../contracts/Plateau";
+
+export class Plateau implements IPlateau {
   private width: number;
   private height: number;
 

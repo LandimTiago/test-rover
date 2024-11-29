@@ -1,11 +1,13 @@
 import { MoveRoverCommand } from "../../Application/useCases/moveRoverCommand";
+import { Plateau } from "../../Domain/models/Plateau";
 import { Rover } from "../../Domain/models/Rover";
-import { Plateau } from "../../Domain/Plateau";
 
 export class Handler {
   public static handleInput(input: string): void {
     const lines = input.trim().split("\n");
+
     const [plateauWidth, plateauHeight] = lines[0].split(" ").map(Number);
+
     const plateau = new Plateau(plateauWidth, plateauHeight);
 
     for (let i = 1; i < lines.length; i += 2) {

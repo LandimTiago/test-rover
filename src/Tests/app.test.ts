@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { MoveRoverCommand } from "../Application/useCases/moveRoverCommand";
-import { Plateau } from "../Domain/Plateau";
+import { Plateau } from "../Domain/models/Plateau";
 import { Rover } from "../Domain/models/Rover";
 
 describe("Mars Rover Tests", () => {

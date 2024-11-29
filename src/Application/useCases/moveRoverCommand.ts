@@ -1,7 +1,8 @@
+import { ICommands } from "../../Domain/contracts/Commands";
+import { Plateau } from "../../Domain/models/Plateau";
 import { Rover } from "../../Domain/models/Rover";
-import { Plateau } from "../../Domain/Plateau";
 
-export class MoveRoverCommand {
+export class MoveRoverCommand implements ICommands {
   private rover: Rover;
   private plateau: Plateau;
 

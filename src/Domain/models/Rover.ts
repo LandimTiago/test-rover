@@ -1,6 +1,8 @@
+import { IRover } from "../contracts/Rover";
+
 type Direction = "N" | "E" | "S" | "W";
 
-export class Rover {
+export class Rover implements IRover {
   private x: number;
   private y: number;
   private orientation: Direction;
