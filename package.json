@@ -1,0 +1,20 @@
+{
+  "name": "rover-movement",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [],
+  "author": "Tiago Landim",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "start": "tsx watch src/main.ts",
+    "test": "vitest --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.6"
+  }
+}
