@@ -1,12 +1,19 @@
 {
-  "name": "rover-movement",
+  "name": "mars-rovers",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "keywords": [],
   "author": "Tiago Landim",
+  "contributors": [
+    {
+      "name": "Tiago Beidaki Landim",
+      "email": "tortoise.tl@gmail.com",
+      "url": "https://www.linkedin.com/in/landim-tiago/"
+    }
+  ],
   "license": "ISC",
-  "description": "",
+  "description": "With this project, we aim to apply advanced design and development practices to solve the Mars Rovers problem. Enjoy the code! 🚀",
   "scripts": {
     "start": "tsx watch src/main.ts",
     "test": "vitest --watch"
