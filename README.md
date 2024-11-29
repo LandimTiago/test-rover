@@ -146,4 +146,4 @@ O Projeto inclui testes automatizados para validar as funcionalidades. Para exec
 npm run test
 ```
 
-O comando ja contempla o modo 'watch' para reiniciar a cada alteração do codigo, garantindo assim a confiabilidade em tempo de desenvolvimento.
+O comando ja contempla o modo `watch` para reiniciar a cada alteração do codigo, garantindo assim a confiabilidade em tempo de desenvolvimento.
